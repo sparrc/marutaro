@@ -36,7 +36,7 @@ hi StatusLine   guifg=#ACB3C4 guibg=#35394D gui=none    ctermfg=gray ctermbg=dar
 hi StatusLineNC guifg=#000000 guibg=#494D5B gui=none    ctermfg=black ctermbg=gray term=none cterm=none
 hi VertSplit    guifg=black guibg=#494D5B   gui=none    ctermfg=black ctermbg=gray term=none cterm=none
 
-hi LineNr       guifg=#4093cc                           ctermfg=cyan cterm=none
+hi LineNr       guifg=#4093cc                           ctermfg=darkgray cterm=none
 hi Folded       guifg=#996699 guibg=#222430             ctermfg=darkred ctermbg=black cterm=bold term=bold
 hi FoldColumn   guifg=#3E6FFF guibg=#222430             ctermfg=darkgrey ctermbg=black cterm=bold term=bold
 
@@ -50,7 +50,7 @@ hi PreProc      guifg=#AA53D5 gui=none                  ctermfg=yellow cterm=non
 hi Comment      guifg=#7C7B9D                           ctermfg=blue term=italic
 hi Constant     guifg=#CC6666                           ctermfg=magenta cterm=none
 hi Identifier   guifg=#99CC33                           ctermfg=green
-hi Statement    guifg=#009900 gui=none                  ctermfg=green  cterm=none term=bold
+hi Statement    guifg=#009900 gui=none                  ctermfg=cyan  cterm=none term=bold
 hi Type         guifg=#C99669 gui=none                  ctermfg=Brown cterm=none
 hi Special      guifg=#FFCC66 gui=none                  ctermfg=brown cterm=none term=italic
 hi Error        guibg=#ff0000 guifg=#000000             ctermfg=yellow ctermbg=DarkRed term=reverse,underline
