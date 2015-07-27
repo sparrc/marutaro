@@ -2,8 +2,7 @@
 " Maintainer:   Cameron Sparr
 " Last Change:  2015 July 24
 
-" marutaro -- Natural and warm colors and with no background color so
-" transparency will work.
+" marutaro -- colorscheme inspired & highly influenced by solarized
 
 set bg=dark
 hi clear
@@ -13,7 +12,7 @@ endif
 
 let colors_name = "marutaro"
 
-hi Normal       guifg=#ACB3C4 guibg=#222430             ctermfg=gray
+hi Normal       guifg=#ACB3C4 guibg=#222430             ctermfg=blue
 hi ErrorMsg     guifg=#000000 guibg=#FF6633             ctermfg=yellow ctermbg=darkred
 hi WarningMsg   guifg=#000000 guibg=Orange              ctermbg=darkyellow ctermfg=black
 hi ModeMsg      guifg=#000000 guibg=#009900             ctermfg=black ctermbg=darkgreen
@@ -32,7 +31,7 @@ hi Search       guifg=#DDDBCF guibg=#7C7B9D             ctermfg=darkgray ctermbg
 hi IncSearch    guifg=#CC6666 guibg=black               ctermfg=darkblue ctermbg=white
 
 hi NonText      guifg=#996699                           ctermfg=darkGray
-hi StatusLine   guifg=#ACB3C4 guibg=#35394D gui=none    ctermfg=gray ctermbg=darkblue term=none cterm=none
+hi StatusLine   guifg=#ACB3C4 guibg=#35394D gui=none    ctermfg=black ctermbg=blue term=none cterm=none
 hi StatusLineNC guifg=#000000 guibg=#494D5B gui=none    ctermfg=black ctermbg=gray term=none cterm=none
 hi VertSplit    guifg=black guibg=#494D5B   gui=none    ctermfg=black ctermbg=gray term=none cterm=none
 
@@ -47,12 +46,13 @@ hi DiffText     guibg=#FF0000 guifg=white gui=none      cterm=bold ctermbg=red
 
 hi Title        guifg=#CC02B8 gui=none                  ctermfg=magenta cterm=bold term=bold
 hi PreProc      guifg=#AA53D5 gui=none                  ctermfg=yellow cterm=none
-hi Comment      guifg=#7C7B9D                           ctermfg=blue term=italic
-hi Constant     guifg=#CC6666                           ctermfg=magenta cterm=none
+hi Comment      guifg=#7C7B9D                           ctermfg=darkgray term=italic
+hi Constant     guifg=#CC6666                           ctermfg=blue cterm=none
 hi Identifier   guifg=#99CC33                           ctermfg=green
-hi Statement    guifg=#009900 gui=none                  ctermfg=cyan  cterm=none term=bold
-hi Type         guifg=#C99669 gui=none                  ctermfg=Brown cterm=none
-hi Special      guifg=#FFCC66 gui=none                  ctermfg=brown cterm=none term=italic
+hi Statement    guifg=#009900 gui=none                  ctermfg=green  cterm=none term=bold
+hi Type         guifg=#C99669 gui=none                  ctermfg=yellow cterm=none
+hi Special      guifg=#FFCC66 gui=none                  ctermfg=red cterm=none term=italic
+hi ColorColumn                                          ctermbg=magenta
 hi Error        guibg=#ff0000 guifg=#000000             ctermfg=yellow ctermbg=DarkRed term=reverse,underline
 
 hi Todo         guifg=black guibg=#993399               ctermfg=red ctermbg=black
