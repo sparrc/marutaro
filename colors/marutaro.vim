@@ -52,7 +52,7 @@ hi Identifier   guifg=#99CC33                           ctermfg=green
 hi Statement    guifg=#009900 gui=none                  ctermfg=green  cterm=none term=bold
 hi Type         guifg=#C99669 gui=none                  ctermfg=yellow cterm=none
 hi Special      guifg=#FFCC66 gui=none                  ctermfg=red cterm=none term=italic
-hi ColorColumn                                          ctermbg=magenta
+hi ColorColumn                                          ctermbg=darkgray
 hi Error        guibg=#ff0000 guifg=#000000             ctermfg=yellow ctermbg=Darkred term=reverse,underline
 
 hi Todo         guifg=black guibg=#993399               ctermfg=red ctermbg=black
